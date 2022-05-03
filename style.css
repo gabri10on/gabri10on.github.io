@@ -1,14 +1,33 @@
+body {
+    background-color: aqua;
+}
+
 #nome {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
-body {
-    background-color: aqua;
+
+#sobre {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 280px;
+    left: 340px;
 }
+
 .style-list {
     font-style: italic;
     line-height: 20px;
 }
-#imagem {
-    text-align: center;
+
+#minha-foto {
+    float: left;
+    left: 40px;
+    width: 260px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+.img-container {
+    height: 300px;
 }
